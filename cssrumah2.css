@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    color: #fcfcfc;
+}
+.header {
+    width: 100%;
+    height: 40vh; 
+    position: relative;
+}
+
+.rumah {
+    background: url('images2/rumah19.jpeg') no-repeat center center/cover; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+ul {
+    text-align: left;
+    list-style: disc;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 36px;
+    background: #333;
+    color: #ccffff;
+}
+.btn {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background 0.3s ease;
+}
+.btn:hover {
+    background: #218838;
+}
+.cta-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.tebel {
+    background-color: #D3DBE1;
+    height: 400px;
+    margin-top: 20px;
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
